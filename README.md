@@ -11,7 +11,7 @@
 
 ## Monaco Editor 
 
-**The Challenge:** Create a Custon Editor build off of the Monaco Editor.
+**The Challenge:** Create a Custon Editor built off of the Monaco Editor.
 
 ### Learning Goals:
 1. Understand Monaco and how it functions
