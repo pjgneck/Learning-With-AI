@@ -1,20 +1,18 @@
 # Learning-With-AI
 ---
-## The AST Manager
-**The Challenge:** Building a bi-directional synchronization engine where a JSON object (the AST) is the "Single Source of Truth" for both a Visual Block Editor and a Text Editor.
+## Node Child Process
+**The Challenge:** Build a Node Child processes to help keep lag down and maintain the overall structure.
 
 ### Learning Goals:
-1. Master State Management patterns (specifically Redux or Proxy patterns).
-2. Understand how to design a JSON Schema that is flexible enough for UI rendering but strict enough for compilation.
-3. Learn how to handle Race Conditions when both editors try to update the state simultaneously.
+1. Master Nodes Child feature to seperate processess away from the user
+2. Utilize the Node Child processes in Drydock to make a smooth IDE enviorment.
 
 ---
 
-## The Polyglot Transpiler
+## Monaco Editor 
 
-**The Challenge:** Converting a custom JSON AST into syntactically correct, production-ready code for multiple languages (Java/Groovy and Python) without using proprietary lock-in.
+**The Challenge:** Create a Custon Editor build off of the Monaco Editor.
 
 ### Learning Goals:
-1. Understand Compiler Theory basics: Tokenizing vs. Parsing vs. Printing.
-2. Master the Visitor Pattern (the standard for walking Syntax Trees).
-3. Learn how to build modular "Printers" that share core logic but output different syntax.
+1. Understand Monaco and how it functions
+2. Intergate it into Terminal and Data Structures for a custom IDE
